@@ -1,2 +1,2 @@
-# plusha-fullstack.github.io
+# Мои лабы по веб-дизайну
  
