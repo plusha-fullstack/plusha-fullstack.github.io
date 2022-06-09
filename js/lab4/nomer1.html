@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<body>
+  <script>
+    "use strict";
+    let book1 = {};
+
+book1.title = "Над пропастью во ржи";
+book1.pubYear = 2000;
+book1.price = 560;
+
+let book2 = {
+    title: "Милый друг",
+    pubYear: 1980,
+    price: 1500,
+};
+for (let key in book1) {
+  // ключи
+  alert( key );
+  // значения ключей
+  alert( book1[key] ); 
+}
+for (let key in book2) {
+  // ключи
+  alert( key );
+  // значения ключей
+  alert( book2[key] ); 
+}
+</script>
+</body>
+
+</html> 

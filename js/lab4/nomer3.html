@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<body>
+  <script>
+    "use strict";
+    function isEmpty(obj) {
+  for (let key in obj) {
+    return false;
+  }
+  return true;
+}
+    let book1 = {};
+    alert(isEmpty(book1));
+
+book1.title = "Над пропастью во ржи";
+book1.pubYear = 2000;
+book1.price = 560;
+alert(isEmpty(book1));
+let book2 = {
+    title: "Милый друг",
+    pubYear: 1980,
+    price: 1500,
+};
+alert(isEmpty(book2));
+</script>
+</body>
+
+</html> 
