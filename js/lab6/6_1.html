@@ -11,14 +11,9 @@
 
 	<script>
   'use strict';
-		let but = document.getElementById("hider");
-		but.addEventListener('click',function(){
-			let but = document.getElementById("text");
-			if(but.style.display != "none")
-				but.style.display = "none";
-			else
-				but.style.display = "block";
-		},false);
+		 document.getElementById('hider').onclick = function () {
+            document.getElementById('text').hidden = true;
+        }
 	</script>
 </body>
 </html>
